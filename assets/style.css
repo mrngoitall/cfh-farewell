@@ -1,0 +1,317 @@
+
+ /**** Links ****/
+ a {
+   color: #60B197;
+   -webkit-transition: color 0.5s ease;
+   -moz-transition: color 0.5s ease;
+   -ms-transition: color 0.5s ease;
+   -o-transition:  color 0.5s ease;
+   transition:  color 0.5s ease;
+ }
+
+ a:hover {
+   text-decoration: none;
+   color: #2ecc71;
+   border-radius:0px !important;
+ }
+
+ p a:hover {
+   color: #2ecc71;
+ }
+
+
+#landing-logo {
+   /* margin: 5px 0 5px 0px; */
+   font-size: 28px;
+   font-family: 'Lobster', cursive;
+   border-radius: 8px;
+   background: #252525;
+   padding: 5px 5px 5px 13px;
+}
+
+#first-word {
+   color: #7CE4E8;
+}
+
+#second-word {
+   color: #FFFFA5;
+}
+
+#third-word {
+   color: #FC575E;
+}
+
+#warning-word {
+   color: #FC575E;
+}
+
+dt {
+  font-size: 1.2em;
+}
+
+ .wpb-top-bar {
+   height: 60px;
+   background: transparent;
+   top:0;
+   width: 100%;
+   z-index:10000;
+   max-width: 1400px;
+ }
+
+ .wpb-logo-container {
+   color: #fff;
+   font-weight: bold;
+   font-size: 11px;
+   max-width: 100%;
+   margin: 0px auto;
+   width: 100%;
+   z-index: 10;
+ }
+
+
+ /**** LANDING ****/
+
+ #main-text {
+   margin: 5px;
+   position: relative;
+   z-index: 1000;
+ }
+
+
+ #top-part {
+    position: relative;
+    z-index: 990;
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 8px;
+ }
+
+ .wpb-teaser {
+   min-height: 450px;
+   position: relative;
+   z-index:990;
+   width: 90%;
+   margin: 0px auto;
+   border-radius: 8px;
+   padding: 30px;
+ }
+
+ .wpb-teaser .background-opacity {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   min-height: 100%;
+   z-index: 0;
+   background: #252525;
+   border-radius: 8px;
+   padding: 20px;
+ }
+
+ .wpb-teaser .wpb-slogan h2 {
+   color: #fff;
+   font-weight: bold;
+   font-size: 52px;
+   text-transform: uppercase;
+   line-height: 60px;
+   text-align: center;
+ }
+
+ #slogan {
+   text-align: center;
+   color: white;
+ }
+
+ .wpb-teaser .wpb-text p, .wpb-teaser .wpb-text ul {
+   color: #fff;
+   padding-top: 15px;
+   font-size: 1.15em;
+   margin: 0 auto;
+   width: 84%;
+   -webkit-padding-start: 0;
+ }
+
+#navver {
+   height: 60px;
+}
+
+
+ /**** About Us ****/
+#main-bod {
+   max-width: 1400px;
+   margin: 0px auto;
+}
+
+
+
+ li {
+   list-style-type: none;
+ }
+
+
+
+ /**** Footer ****/
+
+ .foot {
+   bottom: 0;
+   max-width: 1400px;
+   border-radius: 8px;
+   background: #252525;
+   padding: 5px 5px 5px 13px;
+   width: 90%;
+   margin: 30px auto;
+ }
+
+ .legal {
+   color: white;
+ }
+
+ /**** Margins ****/
+
+.mod-contain {
+   /*padding-right: 15px;
+   padding-left: 15px;*/
+   margin-right: auto;
+   margin-left: auto;
+   /* width: 90%; */
+}
+
+
+/*Override Bootstrap Row Class*/
+.row {
+   margin-left: 0;
+   margin-right: 0;
+}
+
+/*MORE MEDIA QUERIESS WHOOOOOAAAA*/
+
+@media(max-width: 680px) {
+   .wpb-menu-container {
+      display: none;
+   }
+
+   .mod-contain {
+      text-align: center;
+   }
+
+   .wpb-teaser .wpb-text p, .wpb-teaser .wpb-text ul {
+     width: 100%;
+   }
+
+   dd {
+    -webkit-margin-start: 15px;
+   }
+}
+
+@media (min-width : 480px) and (max-width : 865px)  {
+   .wpb-menu-container .wpb-main-menu {
+      text-align: right;
+      height: 100px;
+      margin-top: -77px;
+      font-size: .85em;
+   }
+
+   .wpb-menu-container .wpb-main-menu li a {
+      display: block;
+      height: 100%;
+      line-height: 100px;
+      font-weight: bold;
+      color: white;
+      padding: 0px 3px;
+      -webkit-transition: color 0.5s ease;
+      -moz-transition: color 0.5s ease;
+      -ms-transition: color 0.5s ease;
+      -o-transition: color 0.5s ease;
+      transition: color 0.5s ease;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1000;
+   }
+   .wpb-logo-container {
+      color: #fff;
+      font-weight: bold;
+      margin-right: 0;
+      font-size: 11px;
+      max-width: 99%;
+   }
+
+   .wpb-teaser .container {
+      position: relative;
+      z-index: 1000;
+      padding-top: 70px;
+   }
+
+   .landing-card {
+      font-size: 0.8em;
+   }
+}
+
+@media (min-width : 865px) and (max-width : 1024px)  {
+
+   .wpb-logo-container {
+      color: #fff;
+      font-weight: bold;
+      margin-right: 10px;
+      font-size: 11px;
+   }
+
+}
+ @media (max-width: 480px) {
+
+    .wpb-teaser {
+      min-height: 360px;
+      position: relative;
+      z-index: 990;
+      width: 98%;
+      margin: 0px auto;
+      border-radius: 8px;
+      padding: 30px;
+   }
+
+    .wpb-teaser .wpb-slogan h2 {
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.6em;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 24px;
+   }
+
+   .wpb-top-bar {
+      height: 60px;
+      background: transparent;
+      position: relative;
+      top: 0;
+      width: 100%;
+      z-index: 10000;
+      max-width: 1400px;
+   }
+
+   .mod-contain {
+      width: 100%;
+      text-align: center;
+   }
+
+   #homer {
+      padding-top: 0;
+   }
+
+   #main-text {
+      margin: 0;
+   }
+
+   .foot {
+      bottom: 0;
+      max-width: 1400px;
+      border-radius: 8px;
+      background: #252525;
+      padding: 5px 5px 5px 13px;
+      width: 100%;
+      margin: 30px auto;
+   }
+
+   .row {
+      margin: 0 0;
+   }
+  }
